@@ -49,3 +49,53 @@ datum,api_version,provider_id,provider_name,tillfallen,installda,utbildningar,ku
 2026-11-24,3.0.4,p.uoh.su,Stockholms universitet,4770,0,2321,2113,208,0,1327,2361,942,1990,197,0
 2026-11-24,3.0.4,p.uoh.umu,Umeå universitet,4726,9,2927,2729,163,35,1279,1621,634,1722,483,0
 2026-11-24,3.0.4,p.uoh.uu,Uppsala universitet,4688,13,3043,2774,199,70,767,2166,464,1769,467,0
+2026-11-25,3.0.4,p.pu.e3.boras,Högskolan i Borås,2,0,1,0,1,0,1,0,0,0,0,0
+2026-11-25,3.0.4,p.pu.e3.linne,Linnéuniversitet,2,0,1,0,1,0,1,0,0,0,0,0
+2026-11-25,3.0.4,p.pu.e3.malmo,Malmö universitet,2,0,1,0,1,0,1,0,0,0,0,0
+2026-11-25,3.0.4,p.pu.e3.sodertorn,Södertörns högskola,1,0,1,0,1,0,0,0,0,0,0,0
+2026-11-25,3.0.4,p.pu.e3.umea,"Umeå universitet, Enheten för polisutbildning",2,0,1,0,1,0,1,0,0,0,0,0
+2026-11-25,3.0.4,p.uoh.bdh,Beckmans Designhögskola,3,0,3,0,3,0,0,0,0,0,0,0
+2026-11-25,3.0.4,p.uoh.bem,Brunnsviks Enskilda Musikhögskola BEMU,1,0,1,0,1,0,0,0,0,0,0,0
+2026-11-25,3.0.4,p.uoh.bth,Blekinge tekniska högskola,180,15,136,82,45,9,109,106,109,61,4,0
+2026-11-25,3.0.4,p.uoh.cth,Chalmers tekniska högskola,565,0,521,418,102,1,7,396,4,436,2,0
+2026-11-25,3.0.4,p.uoh.ehs,Enskilda Högskolan Stockholm,154,0,143,135,8,0,77,117,41,8,0,0
+2026-11-25,3.0.4,p.uoh.fhs,Försvarshögskolan,226,1,109,89,17,3,21,28,0,143,12,0
+2026-11-25,3.0.4,p.uoh.gih,Gymnastik- och idrottshögskolan,74,1,63,50,13,0,18,38,5,11,2,0
+2026-11-25,3.0.4,p.uoh.gks,Gammelkroppa skogsskola,1,0,1,0,1,0,0,0,0,0,0,0
+2026-11-25,3.0.4,p.uoh.gu,Göteborgs universitet,10594,466,2934,2564,231,139,2337,4901,2026,3858,1301,0
+2026-11-25,3.0.4,p.uoh.hb,Högskolan i Borås,426,0,203,124,75,4,254,234,127,111,13,0
+2026-11-25,3.0.4,p.uoh.hda,Högskolan Dalarna,5842,0,1346,1186,70,90,3968,3873,754,1722,83,0
+2026-11-25,3.0.4,p.uoh.hh,Högskolan i Halmstad,996,11,504,426,59,19,240,601,187,576,4,0
+2026-11-25,3.0.4,p.uoh.hhs,Handelshögskolan i Stockholm,203,0,129,120,4,5,0,191,18,188,0,0
+2026-11-25,3.0.4,p.uoh.hig,Högskolan i Gävle,1682,0,991,915,72,4,909,922,90,357,67,0
+2026-11-25,3.0.4,p.uoh.hj,Jönköping University,1120,40,341,168,173,0,536,345,535,408,118,0
+2026-11-25,3.0.4,p.uoh.hkr,Högskolan Kristianstad,914,0,447,391,56,0,689,642,496,188,49,0
+2026-11-25,3.0.4,p.uoh.hs,Högskolan i Skövde,1074,0,603,531,72,0,117,707,120,631,22,0
+2026-11-25,3.0.4,p.uoh.hv,Högskolan Väst,475,40,261,182,69,10,271,245,99,150,142,0
+2026-11-25,3.0.4,p.uoh.jth,Johannelunds teologiska högskola,107,0,56,38,18,0,54,87,0,0,0,0
+2026-11-25,3.0.4,p.uoh.kau,Karlstads universitet,2925,53,1779,1640,136,3,1063,1407,70,900,25,0
+2026-11-25,3.0.4,p.uoh.kf,Konstfack,2,0,2,2,0,0,0,1,0,0,2,0
+2026-11-25,3.0.4,p.uoh.ki,Karolinska institutet,551,0,220,163,56,1,219,246,33,101,12,0
+2026-11-25,3.0.4,p.uoh.kmh,Kungl. Musikhögskolan i Stockholm,47,0,41,16,25,0,2,15,5,11,1,0
+2026-11-25,3.0.4,p.uoh.kth,Kungl. Tekniska högskolan,1093,7,952,868,84,0,117,940,18,624,213,204
+2026-11-25,3.0.4,p.uoh.liu,Linköpings universitet,1344,0,892,753,124,15,487,597,258,315,35,0
+2026-11-25,3.0.4,p.uoh.lnu,Linnéuniversitetet,4781,68,2197,2012,148,37,1403,2439,707,2140,535,0
+2026-11-25,3.0.4,p.uoh.ltu,Luleå tekniska universitet,1860,1,1177,1089,88,0,598,1382,143,671,6,0
+2026-11-25,3.0.4,p.uoh.lu,Lunds universitet,2859,54,1980,1751,201,28,406,1379,436,1364,208,0
+2026-11-25,3.0.4,p.uoh.mau,Malmö universitet,1571,9,682,554,110,18,348,555,227,523,52,0
+2026-11-25,3.0.4,p.uoh.mch,Marie Cederschiöld högskola,8,0,7,0,7,0,2,5,1,0,0,0
+2026-11-25,3.0.4,p.uoh.mdu,Mälardalens universitet,1520,1,1035,956,78,1,415,744,241,465,9,0
+2026-11-25,3.0.4,p.uoh.miu,Mittuniversitetet,1995,5,850,700,104,46,1109,1018,117,615,133,0
+2026-11-25,3.0.4,p.uoh.nmi,Newmaninstitutet,160,0,82,79,3,0,114,146,61,31,0,0
+2026-11-25,3.0.4,p.uoh.oru,Örebro universitet,1308,0,1027,948,75,4,193,485,175,282,15,0
+2026-11-25,3.0.4,p.uoh.rkh,Röda Korsets Högskola,8,0,8,3,5,0,3,6,3,0,0,0
+2026-11-25,3.0.4,p.uoh.sap,Högskolan Sapu - Skandinaviens Akademi för Psykoterapiutveckling,9,0,4,0,4,0,2,9,0,0,0,0
+2026-11-25,3.0.4,p.uoh.sh,Södertörns högskola,864,14,479,342,137,0,191,184,104,196,13,0
+2026-11-25,3.0.4,p.uoh.shh,Sophiahemmet Högskola,19,0,9,1,7,1,14,14,14,0,1,0
+2026-11-25,3.0.4,p.uoh.sih,Sankt Ignatios högskola,31,0,30,26,4,0,19,17,0,31,0,0
+2026-11-25,3.0.4,p.uoh.skh,Stockholms konstnärliga högskola,103,0,67,48,19,0,26,27,0,36,10,0
+2026-11-25,3.0.4,p.uoh.slu,Sveriges lantbruksuniversitet,1502,9,829,761,66,2,145,251,44,827,14,0
+2026-11-25,3.0.4,p.uoh.smi,Stockholms Musikpedagogiska Institut,52,0,52,40,12,0,0,40,0,0,0,0
+2026-11-25,3.0.4,p.uoh.su,Stockholms universitet,4773,0,2321,2113,208,0,1330,2364,943,1990,197,0
+2026-11-25,3.0.4,p.uoh.umu,Umeå universitet,4726,9,2927,2729,163,35,1279,1621,634,1722,483,0
+2026-11-25,3.0.4,p.uoh.uu,Uppsala universitet,4688,13,3043,2774,199,70,767,2166,464,1769,467,0

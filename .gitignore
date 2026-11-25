@@ -1,0 +1,4 @@
+# Lokala cachar och utdata
+data/
+*.jsonl.gz
+__pycache__/

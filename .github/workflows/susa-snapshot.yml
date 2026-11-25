@@ -1,0 +1,71 @@
+name: Susa-navet – veckovis ögonblicksbild
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"   # måndagar 04:17 UTC (05:17/06:17 svensk tid)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: susa-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SCRIPTS: skills/susa-navet/scripts
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Datum
+        id: d
+        run: echo "date=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Hämta HS från Susa-navet
+        run: python "$SCRIPTS/susa.py" fetch --cache data/hs --school-type HS
+
+      - name: Hämta föregående ögonblicksbild
+        id: prev
+        run: |
+          tag=$(gh release list --limit 20 --json tagName -q '[.[] | select(.tagName | startswith("susa-hs-"))][0].tagName // ""')
+          if [ -n "$tag" ] && [ "$tag" != "susa-hs-${{ steps.d.outputs.date }}" ]; then
+            gh release download "$tag" --pattern 'hs_*.csv.gz' --dir prev
+            echo "file=$(ls prev/hs_*.csv.gz | head -1)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Bygg ögonblicksbild, tidsserie och ändringsrapport
+        run: |
+          python "$SCRIPTS/snapshot.py" --cache data/hs --out-dir out --repo-dir . \
+            --date "${{ steps.d.outputs.date }}" ${{ steps.prev.outputs.file && format('--previous {0}', steps.prev.outputs.file) || '' }}
+
+      - name: Publicera release
+        run: |
+          tag="susa-hs-${{ steps.d.outputs.date }}"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" out/hs_*.csv.gz --clobber
+            gh release edit "$tag" --notes-file out/release_notes.md
+          else
+            gh release create "$tag" out/hs_*.csv.gz --title "Susa-navet HS ${{ steps.d.outputs.date }}" --notes-file out/release_notes.md
+          fi
+
+      - name: Committa tidsserie och ändringsrapport
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add snapshots
+          if git diff --cached --quiet; then
+            echo "Inget nytt att committa."
+          else
+            git commit -m "Susa-navet: ögonblicksbild ${{ steps.d.outputs.date }}"
+            git pull --rebase
+            git push
+          fi

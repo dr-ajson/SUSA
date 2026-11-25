@@ -1,0 +1,191 @@
+provider_id,namn,kod,antal_tillfallen,exempel_titlar
+p.pu.e3.boras,Högskolan i Borås,,2,Polisutbildningen
+p.pu.e3.linne,Linnéuniversitet,,2,Polisutbildningen
+p.pu.e3.malmo,Malmö universitet,,2,Polisutbildningen
+p.pu.e3.sodertorn,Södertörns högskola,,1,Polisutbildningen
+p.pu.e3.umea,"Umeå universitet, Enheten för polisutbildning",,2,Polisutbildningen
+p.uoh.bdh,Beckmans Designhögskola,,3,Konstnärligt kandidatprogram i Form | Konstnärligt kandidatprogram i Mode | Konstnärligt kandidatprogram i Visuell kommunikation
+p.uoh.bem,Brunnsviks Enskilda Musikhögskola BEMU,,1,Musikskapande
+p.uoh.bth,Blekinge tekniska högskola,,1,Masterprogram i marin teknik
+p.uoh.bth,Blekinge tekniska högskola,B,4,"Tekniskt basår | Tekniskt basår, distans"
+p.uoh.bth,Blekinge tekniska högskola,ORD,190,Introduktion till Cloud Computing | Programmering och problemlösning med Python | Utökad verklighet (XR) applikationer och interaktionstekniker
+p.uoh.cth,Chalmers tekniska högskola,,4,"ERASMUS MUNDUS NANOSCIENCE AND NANOTECHNOLOGY, MSC PROGR (YEAR 2) | NORDIC MASTER IN MARITIME ENGINEERING (YEAR 2) | NORDIC MASTER IN INNOVATIVE SUSTAINABLE ENERGY ENGINEERING (YEAR 2)"
+p.uoh.cth,Chalmers tekniska högskola,B,2,Tekniskt basår på distans | Tekniskt basår
+p.uoh.cth,Chalmers tekniska högskola,ORD,559,Vägutformning och trafikanalys | Avancerade transportsystem | Förorenade områden och efterbehandling
+p.uoh.ehs,Enskilda Högskolan Stockholm,ORD,154,Levd religion och tro i kristna gemenskaper i antiken och nutiden | Bibelhebreiska. Distanskurs | Bibelhebreiska
+p.uoh.fhs,Försvarshögskolan,,1,"Masterprogram i innovation, försvar och säkerhet"
+p.uoh.fhs,Försvarshögskolan,OP,12,Officersprogrammet med krigsvetenskaplig inriktning | Officersprogrammet med militärteknisk inriktning | Officersprogrammet med nautisk inriktning
+p.uoh.fhs,Försvarshögskolan,ORD,214,Kandidatprogram termin tre kurspaket | Försvarshögskolans kandidatprogram med inriktning militärhistoria | Försvarshögskolans kandidatprogram med inriktning statsvetenskap
+p.uoh.gih,Gymnastik- och idrottshögskolan,ORD,73,Ämneslärarprogrammet mot årskurs 7-9 - ingångsämne Idrott och hälsa | Biologisk Psykologi | Tränarskap med inriktning bollspel
+p.uoh.gih,Gymnastik- och idrottshögskolan,U,2,Idrott och hälsa för lärare i gymnasieskolan – ingår i Lärarlyftet | Idrott och hälsa för lärare åk 7-9 – Ingår i Lärarlyftet
+p.uoh.gks,Gammelkroppa skogsskola,,1,Skogstekniker
+p.uoh.gu,Göteborgs universitet,LUN,1045,Andraämne: Bild 7-9 | Andraämne: Bild GY | Andraämne: Biologi 7-9
+p.uoh.gu,Göteborgs universitet,ORD,9677,Förhistoriens metallarbete i fokus - analys och tolkning av kopparlegeringar | Järnålderns kulturlandskap | Afrika - från förhistoria till tidigmodern tid
+p.uoh.gu,Göteborgs universitet,SU,127,Vattnets arkeologi | Militärhistoriska kulturarv i Västsverige | Avancerade arkeologiska materialstudier inom ramen för fältprojekt
+p.uoh.gu,Göteborgs universitet,SÅB,6,"Naturvetenskapligt basår, Fysik | Naturvetenskapligt basår, Kemi"
+p.uoh.gu,Göteborgs universitet,U,51,"Läs- och skrivinlärning för förskollärare som undervisar i förskoleklass  | Yt- och nanofysik | Speciallärarutbildning med specialisering mot språk-, skriv- och läsutveckling. Ingår i Lärarlyftet "
+p.uoh.gu,Göteborgs universitet,UKU,24,Kompletteringsutbildning för biomedicinska analytiker med utländsk examen | Introduktion till biomedicinsk laboratorievetenskap | Metodik inom biomedicinsk laboratorievetenskap med inriktning mot  laboratoriemedicinska specialiteter
+p.uoh.gu,Göteborgs universitet,ULV,10,"Utlandsutbildade lärares vidareutbildning | Spanska, fortsättningskurs i Akademiskt Skrivande | Spanska, fortsättningskurs i spansk grammatik"
+p.uoh.gu,Göteborgs universitet,UM,101,Matematikinlärning för förskollärare som undervisar i förskoleklass | Läs- och skrivinlärning för förskollärare som undervisar i förskoleklass  | Kulturskolans didaktik och praktik: bild och form
+p.uoh.gu,Göteborgs universitet,VAL,13,"Vidareutbildning av lärare och förskollärare som saknar lärarexamen | Matematik 4 för gymnasielärare | Spanska, Grundkurs, Grammatik"
+p.uoh.hb,Högskolan i Borås,B,7,Tekniskt basår | Baskompletteringspaket för ingenjörsstudier | Baskompletteringspaket matematik
+p.uoh.hb,Högskolan i Borås,ORD,413,Svenska språket och kulturen | Svenska som andraspråk för lärare 1-30 hp | Fältstudie A
+p.uoh.hb,Högskolan i Borås,U,6,Främja elevernas läsande genom skolbibliotekets verksamhet | Matematikinlärning för förskollärare som undervisar i förskoleklass (Uppdragsutbildning) | Läs- och skrivinlärning för förskollärare som undervisar i förskoleklass (Uppdragsutbildning)
+p.uoh.hda,Högskolan Dalarna,ORD,5759,Ledarskap för hållbar organisationsförändring | Interkulturella litteraturstudier: Magisterexamensarbete | Introduktion till Professionell kommunikation - mer än bara samtal
+p.uoh.hda,Högskolan Dalarna,SUB,25,Arbetsplatsförlagd utbildning i Data Science | Kreativt skrivande | Vetenskapligt tänkande och skrivande
+p.uoh.hda,Högskolan Dalarna,U,21,Vidareutveckling och analys av kvalitet i undervisning | Undervisningsskicklighet i teori och praktik (USP) Ämneslärare | Undervisningsskicklighet i teori och praktik (USP) F-6
+p.uoh.hda,Högskolan Dalarna,VAL,37,Engelska III: Fokus lingvistik | Engelska III med didaktisk inriktning för gymnasieskolan | Engelskspråkig barn- och ungdomslitteratur
+p.uoh.hh,Högskolan i Halmstad,,214,"Kriminologi och kultur | Strategisk svenska - digital kommunikation, forensik och marknadsföring | Miljöskydd"
+p.uoh.hh,Högskolan i Halmstad,KK,2,Cyberförsvarare | Digitala detektiver
+p.uoh.hh,Högskolan i Halmstad,ORD,788,Arbetets marknad | Introduktion till arbetsvetenskap | Arbetsmiljö
+p.uoh.hh,Högskolan i Halmstad,U,3,"Kompetensutveckling för förskollärare, lek och rörelse | Läs- och skrivinlärning för förskollärare som undervisar i förskoleklass"
+p.uoh.hhs,Handelshögskolan i Stockholm,,6,Bachelor of Science Program in Business and Economics | Kandidatprogrammet i Business and Economics | Bachelor of Science Program in Retail Management
+p.uoh.hhs,Handelshögskolan i Stockholm,ORD,125,The Psychology of Work | History of Modern Scandinavian Art & Architecture | Management: Operations
+p.uoh.hig,Högskolan i Gävle,B,33,Basfysik 1 | Basfysik 2 | Baskemi 1
+p.uoh.hig,Högskolan i Gävle,KPL,16,Naturorienterande ämnen och teknik för årskurs 4-6 | Ämnes- och ämnesdidaktiska studier i engelska I | Ämnes- och ämnesdidaktiska studier i engelska II
+p.uoh.hig,Högskolan i Gävle,ORD,1615,Arbetshälsovetenskap | Arbetsmiljörätt och tillämpning | Vetenskapsteori och forskningsetik
+p.uoh.hig,Högskolan i Gävle,U,6,"Att undervisa artificiell intelligens på gymnasial nivå - tekniska perspektiv | Engelska för lärare i åk 1-3, 15 hp (1-15). Ingår i Lärarlyftet | Engelska för lärare i åk 4-6, 30 hp (1-30). Ingår i Lärarlyftet"
+p.uoh.hig,Högskolan i Gävle,UKU,12,"Mikrobiologi, farmakologi och läkemedelsberäkning | Omvårdnad som vetenskap och sjuksköterskans arbetsområde inom svensk hälso- och sjukvård | Vård och omvårdnad vid ohälsa och sjukdom I"
+p.uoh.hj,Jönköping University,B,42,Baskurs i svenska för behörighet till lärarutbildning | Teknisk bastermin: Byggnadsutformning med arkitektur | Teknisk bastermin: Byggnadsteknik (civilingenjör)
+p.uoh.hj,Jönköping University,KK,15,AI Governance in Practice: Ethics and Responsibility | Från AI-möjlighet till AI-projekt | AI in Retail
+p.uoh.hj,Jönköping University,LL,3,"Ekonomistyrning för små och medelstora företag | Svenska som andraspråk I | Specialpedagogik, grundkurs"
+p.uoh.hj,Jönköping University,N,17,Magisterprogram i arbetsterapi | Master of Science (120 credits) with a major in Occupational Therapy | Specialistsjuksköterskeprogrammet med inriktning mot hälso- och sjukvård för barn och ungdomar
+p.uoh.hj,Jönköping University,ORD,1042,"Handelsrättslig översiktskurs | Handelsrätt, 16-30 hp | Skatterätt"
+p.uoh.hj,Jönköping University,PA,19,Pathway Semester General | Pathway Intensive English | Pathway for International Sports
+p.uoh.hj,Jönköping University,S,5,Människocentrerad cybersäkerhet och personlig integritet | Projektledning och ledarskap | Purchasing Logistics with a Global Perspective
+p.uoh.hj,Jönköping University,U,11,"Att leda kollegialt systematiskt utvecklingsarbete (Uppdragsutbildning) | Bild för lärare åk 1-3, 30 högskolepoäng (1-30). Ingår i Lärarlyftet. | Bild för lärare åk 4-6, 30 högskolepoäng (1-30). Ingår i Lärarlyftet."
+p.uoh.hj,Jönköping University,VAL,6,Vidareutbildning av lärare och förskollärare som saknar lärar- eller förskollärarexamen
+p.uoh.hkr,Högskolan Kristianstad,BAS,3,Baskurs i svenska för särskilt betyg | Tekniskt basår
+p.uoh.hkr,Högskolan Kristianstad,LL,27,"Speciallärarutbildning med specialisering mot matematikutveckling, 90 hp (1-90). Ingår i Lärarlyftet. | Speciallärarutbildning med specialisering mot språk-, skriv- och läsutveckling, 90 hp (1-90). Ingår i Lärarlyftet. | Svenska för lärare åk 1-3, 30 hp (1-30). Ingår i Lärarlyftet"
+p.uoh.hkr,Högskolan Kristianstad,ORD,866,AI för chefer och ledare | Biodiversitet och ekosystemtjänster | Grudläggande biokemi
+p.uoh.hkr,Högskolan Kristianstad,OVN,2,Handledning I - Handledning och bedömning i läraryrket
+p.uoh.hkr,Högskolan Kristianstad,U,16,"Läs- och skrivinlärning för förskollärare som undervisar i förskoleklass 15 högskolepoäng (Uppdrag av Skolverket) | Matematikinlärning för förskollärare som undervisar i förskoleklass, 15 högskolepoäng (Uppdrag av Skolverket) | Undervisningsskicklighet i teori och praktik (USP) - inriktning förskollärare"
+p.uoh.hkr,Högskolan Kristianstad,UKU,1,Kompletteringsutbildning för biomedicinska analytiker med utländsk examen
+p.uoh.hs,Högskolan i Skövde,BAS,11,"Biologi 1, behörighetsgivande kurs | Biologi 2, behörighetsgivande kurs | Fysik 1, behörighetsgivande kurs "
+p.uoh.hs,Högskolan i Skövde,INM,4,Ekologisk hållbar utveckling genom interdisciplinärt och internationellt samarbete  G1N | Hållbart och resilient entreprenörskap genom interdisciplinärt och internationellt samarbete G1N | Social hållbar utveckling genom interdisciplinärt och internationellt samarbete G1N
+p.uoh.hs,Högskolan i Skövde,ORD,1052,Affärsutveckling och marknadsföring - magisterprogram | Artificiell intelligens för bioinformatik - magisterprogram | Bioinformatisk analys med Python 1 G1N
+p.uoh.hs,Högskolan i Skövde,S,7,"Praktik i biovetenskap G2F | Introduktion till AI-tillämpningar i marknadsföringsstrategi G1N | Finansiell psykologi: Ångest, välbefinnande och pengars psykologi G1N"
+p.uoh.hv,Högskolan Väst,B,4,Behörighetsgivande baskurs i svenska för antagning till Lärarutbildning | Tekniskt basår
+p.uoh.hv,Högskolan Väst,KK,73,Analys och design med avseende på elektromagnetisk kompabilitet | AI-baserad vision-inspektion | Automation och styrning i kraftsystem - analys
+p.uoh.hv,Högskolan Väst,KPL,60,"Kompletterande pedagogisk utbildning ämneslärare 7-9 (KPU), undervisningsämne matematik/teknik | Kompletterande pedagogisk utbildning ämneslärare 7-9 (KPU), undervisningsämne matematik | Kompletterande pedagogisk utbildning ämneslärare 7-9 (KPU), undervisningsämne teknik"
+p.uoh.hv,Högskolan Väst,ORD,352,Avancerad hälsobedömning och klinisk undersökningsmetodik  | Arbetsintegrerat lärande för hållbar utveckling | Arbetsintegrerade samhällsstudier
+p.uoh.hv,Högskolan Väst,U,26,Engelska för lärare i åk 1-3 - Ingår i Lärarlyftet | Engelska för lärare i åk 4-6 - Ingår i Lärarlyftet | Engelska för lärare i åk. 7-9 - Ingår i Lärarlyftet
+p.uoh.jth,Johannelunds teologiska högskola,ORD,107,Jesus från Nasaret | Paulus och breven | Johannesevangeliets exegetik med grekiska
+p.uoh.kau,Karlstads universitet,B,13,Naturvetenskaplig bastermin | Biologi Bas A | Biologi Bas B
+p.uoh.kau,Karlstads universitet,ORD,2953,Forskningsmetoder inom arbetsvetenskapen | Arbetsvetenskap - Magisteruppsats | Arbetsvetenskap
+p.uoh.kau,Karlstads universitet,SU,1,"Dans, rörelse och kropp som meningsskapande uttryck"
+p.uoh.kau,Karlstads universitet,U,6,"Undervisningsskicklighet i teori och praktik | Vidareutveckling och analys av kvalitet i undervisningen | Kompetensutveckling i förskolan, lek och rörelse "
+p.uoh.kau,Karlstads universitet,ULL,1,Speciallärarprogrammet med specialisering mot intellektuell funktionsnedsättning 90 hp (1-90). Ingår i lärarlyftet.
+p.uoh.kau,Karlstads universitet,URU,1,Läs- och skrivinlärning för förskollärare som undervisar i förskoleklass (Uppdrag av Skolverket)
+p.uoh.kau,Karlstads universitet,VAL,3,Förskollärarprogram inom VAL | Vidareutbildning av obehöriga lärare
+p.uoh.kf,Konstfack,LL,1,"Slöjd för lärare i åk 7-9, 45 hp (1-45) Ingår i Lärarlyftet"
+p.uoh.kf,Konstfack,YV,1,Animation och lärande
+p.uoh.ki,Karolinska institutet,ORD,539,Utvecklingsarbete i arbetsterapi | Arbetsterapeutprogrammet | Audionomprogrammet
+p.uoh.ki,Karolinska institutet,TA2,8,Kompletterande utbildning för fysioterapeuter med utländsk examen från land utanför EU/EES och Schweiz | Kompletterande utbildning för läkare med utländsk examen från land utanför EU/EES och Schweiz | Kompletterande utbildning för sjuksköterskor med utländsk examen från land utanför EU/EES och Schweiz
+p.uoh.ki,Karolinska institutet,UKU,4,Kompletterande utbildning för barnmorskor med utländsk examen från land utanför EU/EES och Schweiz | Kompletterande utbildning för fysioterapeuter med utländsk examen från land utanför EU/EES och Schweiz | Kompletterande utbildning för sjuksköterskor med utländsk examen från land utanför EU/EES och Schweiz
+p.uoh.kmh,Kungl. Musikhögskolan i Stockholm,ORD,46,"Kulning, fördjupning | Musikal – sångteknik och scenisk gestaltning | Avancerad kurs i interpretation 1"
+p.uoh.kmh,Kungl. Musikhögskolan i Stockholm,U,1,"Vidareutveckling och analys av kvalitet i undervisning (VAK) för lärare i bild, dans, musik och slöjd"
+p.uoh.kth,Kungl. Tekniska högskolan,B,7,"Tekniskt basår, Campus Flemingsberg | Tekniskt basår, Campus Valhallavägen | Tekniskt basår, Lärcentrum Norrtälje"
+p.uoh.kth,Kungl. Tekniska högskolan,KPL,1,Kompletterande pedagogisk utbildning mot ämneslärare årskurs 7-9
+p.uoh.kth,Kungl. Tekniska högskolan,LL,211,Arkitektur och genus: Introduktion | Arkitektur och genus: Uppsats | Miljölärande och rumslig gestaltning i arbete med unga
+p.uoh.kth,Kungl. Tekniska högskolan,ORD,880,"Introduktion till Arkitektyrket | Arkitekturprojekt 1:3 Boende, arbete, klimat | Arkitekturprojekt 2:2 - Tectonics, Ornament, Transformation"
+p.uoh.kth,Kungl. Tekniska högskolan,UPS,1,Teknik för lärare i åk 7-9
+p.uoh.liu,Linköpings universitet,,2,Hälsovetenskapligt basår (30 fup och 30 hp)
+p.uoh.liu,Linköpings universitet,KPL,6,"Kompletterande pedagogisk utbildning grundlärare 4-6, Sv, SO, En, 75 hp | Kompletterande pedagogisk utbildning grundlärare 4-6, Ma, NO, Tk, 75 hp | Kompletterande pedagogisk utbildning ämneslärare åk 7-9, teknik, matematik, fysik, kemi, biologi, 60 hp"
+p.uoh.liu,Linköpings universitet,ORD,1307,"Civilingenjör i datateknik | Senare del, Civilingenjör i datateknik (ej åk 1) | Civilingenjör i design och produktutveckling"
+p.uoh.liu,Linköpings universitet,S,7,"Barn- och ungdomslitteratur | Etik, sommarkurs | Retorik: Att tala, distanskurs"
+p.uoh.liu,Linköpings universitet,U,16,"Slöjd för lärare i åk 7-9, 45 högskolepoäng (1-45). Ingår i Lärarlyftet. | Teknik för lärare åk 1-3 (1-7,5 hp). Ingår i Lärarlyftet. | Teknik för lärare åk 4-6 (1-7,5 hp).  Ingår i Lärarlyftet."
+p.uoh.liu,Linköpings universitet,UKU,4,Biomedicinsk laboratorievetenskap och sjukdomslära | Självständigt arbete i biomedicinsk laboratorievetenskap | Kompletteringsutbildningen för biomedicinska analytiker med utländsk examen
+p.uoh.liu,Linköpings universitet,ULV,1,"Utlandsutbildade lärares vidareutbildning, ULV"
+p.uoh.liu,Linköpings universitet,VAL,1,"Vidareutbildning av lärare som saknar lärarexamen, VAL"
+p.uoh.lnu,Linnéuniversitetet,B,7,Tekniskt/naturvetenskapligt basår - Inriktning naturvetenskap | Tekniskt/naturvetenskapligt basår - Inriktning teknik | Tekniskt basår med reserverad plats på ett civilingenjörsprogram
+p.uoh.lnu,Linnéuniversitetet,EF,19,Design för cirkulär digital tillverkning | Digital tvilling för ledare | Digitala tvilling (modellering och simulering)
+p.uoh.lnu,Linnéuniversitetet,EU,469,Digital bildbehandling | Grafisk design och typografi I | Grafisk designhistoria ur ett globalt perspektiv
+p.uoh.lnu,Linnéuniversitetet,ORD,4266,"Behörighetsgivande baskurs i svenska för antagning till lärarutbildning | Sandby borg: Arkeologin, händelsen, tiden | Arkeologi I"
+p.uoh.lnu,Linnéuniversitetet,S,7,Hälsofrämjande ledarskap | Bröd och brödbakning | Förberedande matematik för högskolestudier  I
+p.uoh.lnu,Linnéuniversitetet,U,11,Grundläggande programmering med matematikdidaktisk inriktning för lärare som undervisar i gr 7-9 / spec 8-10 | Grundläggande programmering med teknikdidaktisk inriktning för lärare som undervisar i gr 7-9/ spec. 8-10 | Främja elevernas medie- och informationskunnighet genom skolbibliotekets verksamhet
+p.uoh.lnu,Linnéuniversitetet,US,32,"Företagsekonomi för lärare i gymnasieskolan, 90 hp (1-90 hp), ingår i Lärarlyftet | Geografi för lärare åk 7-9, 1-45 hp, ingår i Lärarlyftet | Samhällskunskap för lärare i åk 7–9, (1-90). Ingår i Lärarlyftet"
+p.uoh.ltu,Luleå tekniska universitet,ORD,1855,Säkerhetsarkitektur | Introduktion till Informationssäkerhet | Arbetsmiljöledning
+p.uoh.ltu,Luleå tekniska universitet,TFS,4,"Kompletterande pedagogisk utbildning 60hp, inriktning 7-9 | Kompletterande pedagogisk utbildning 60hp, inriktning gymnasiet"
+p.uoh.ltu,Luleå tekniska universitet,U,2,"Matematikinlärning för förskollärare som undervisar i förskoleklass | Vidareutveckling och analys av kvalitet i undervisningen, med inriktning mot förskollärare"
+p.uoh.lu,Lunds universitet,B,1,Hälsovetenskapligt basår
+p.uoh.lu,Lunds universitet,KSK,29,En kulturskola för alla |  Inkluderande och specialpedagogiska perspektiv i kulturskolan | Kulturskolan som idé och praktik I
+p.uoh.lu,Lunds universitet,LL,3,Introduktion till filmvetenskap | Sveriges berggrundsgeologi | Tyska med fackspråklig inriktning
+p.uoh.lu,Lunds universitet,LLY,4,"Juridik för lärare på gymnasiet, 90 hp (1-90). Ingår i Lärarlyftet II | Svenska som andraspråk för lärare i svenska för invandrare (sfi), 1-30 hp. Ingår i Lärarlyftet II | Svenska som andraspråk för ämneslärare. Ingår i Lärarlyftet"
+p.uoh.lu,Lunds universitet,ORD,2703,AI och digitalisering  inom arkivsektorn | ABM: Verksamhetsförlagd kurs | Antikens kultur och samhällsliv: Grundkurs
+p.uoh.lu,Lunds universitet,S,37,Antiken och idag: En fördjupning i de antika kulturerna och deras relevans idag | Biologi: Floristik - fortsättningskurs | Biologi: Fältfaunistik
+p.uoh.lu,Lunds universitet,U,20,Främja elevernas medie-och informationskunnighet genom skolbibliotekets verksamhet | Främja elevernas läsande genom skolbibliotekets verksamhet | Författningskunskap
+p.uoh.lu,Lunds universitet,UKU,3,Kompletterande utbildning för läkare med examen utanför EU/EES och Schweiz | Kompletterande utbildning för personer med utländsk psykologexamen
+p.uoh.lu,Lunds universitet,XKU,32,"Environmental Humanities: New Perspectives on Global Sustainability | From Ancient Sites to Virtual Worlds: An Introduction to Digital Heritage | Poetry, Sustainability and Change"
+p.uoh.lu,Lunds universitet,ÄLU,81,"Kompletterande pedagogisk utbildning, Inriktning mot gymnasieskolan, två ämnen | Kompletterande pedagogisk utbildning, Inriktning mot årskurs 7-9, 2 ämnen | Ämneslärarutbildning med inriktning mot gymnasieskolan, Ingång engelska"
+p.uoh.mau,Malmö universitet,LLY,19,Idrott och hälsa för lärare i åk 4-6 (Ingår i Lärarlyftet) | Idrott och hälsa för lärare i åk 1-3 (Ingår i Lärarlyftet) | Teknik för lärare i åk 1-3 (Ingår i Lärarlyftet)
+p.uoh.mau,Malmö universitet,ORD,1528,Introduktionsutbildning - behörighetsgivande kurs i svenska | Introduktionsutbildning - behörighetsgivande utbildning i svenska | Baskurs i svenska för lärarutbildningar
+p.uoh.mau,Malmö universitet,OVN,5,Handledarutbildning I: Handledning och bedömning av lärarstudenters yrkeslärande i verksamhetsförlagd utbildning | Handledarutbildning II: Kollega och studenthandledning i  skolverksamhet
+p.uoh.mau,Malmö universitet,S,10,Speech and Presentation Technique through Drama - RASK | Studieteknik - RASK | Akademisk text - RASK
+p.uoh.mau,Malmö universitet,U,10,Matematikinlärning för förskollärare som undervisar i förskoleklass | Att leda och undervisa lek och rörelse i förskolan | Sociologi för lärare i gymnasieskolan (Ingår i Lärarlyftet)
+p.uoh.mau,Malmö universitet,UKU,7,Kompletterande utbildning för tandläkare med utländsk examen från land utanför EU/EES och Schweiz | Kompletterande utbildning för personer med avslutad utländsk högskoleutbildning i socialt arbete
+p.uoh.mau,Malmö universitet,VAL,1,Bruka och återbruka i Antropocen? Att utveckla didaktisk kompetens om hållbarhetsfrågor
+p.uoh.mch,Marie Cederschiöld högskola,ORD,8,Magisterprogram i socialt arbete med fördjupningsområdet våld i nära relationer | Hälso- och sjukvårdskuratorsprogrammet (helfart) | Hälso- och sjukvårdskuratorsprogrammet (halvfart)
+p.uoh.mdu,Mälardalens universitet,,2,Senare del av program
+p.uoh.mdu,Mälardalens universitet,ORD,1498,Magisterprogram i företagsekonomi | Masterprogram i hållbara energisystem | Masterprogram i teknisk matematik
+p.uoh.mdu,Mälardalens universitet,U,9,Matematikinlärning för förskollärare som undervisar i förskoleklass 15 högskolepoäng (Uppdrag av Skolverket) | Att leda kollegialt systematiskt utvecklingsarbete | Undervisningsskicklighet i teori och praktik (USP) - inriktning från grundskola 7-9 till vuxenutbildning
+p.uoh.miu,Mittuniversitetet,B,37,"Naturvetenskapligt baspaket BE | Biologi BE, Baskurs 2 i biologi | Tekniskt baspaket BE"
+p.uoh.miu,Mittuniversitetet,BUU,2,Biomedicinsk analytiker
+p.uoh.miu,Mittuniversitetet,LLY,9,"Engelska för lärare åk 4-6. Ingår i Lärarlyftet. | Engelska för lärare åk 1-3. Ingår i Lärarlyftet. | Samhällsorientering för lärare åk 1-3, 15 högskolepoäng (1-15 högskolepoäng). Ingår i Lärarlyftet."
+p.uoh.miu,Mittuniversitetet,ORD,1867,"Arbetshälsovetenskap AV, Utveckling av socialt hållbara organisationer | Arbetshälsovetenskap AV, Frisk- och riskfaktorers betydelse för hälsa i arbetslivet  | Arkiv- och informationsvetenskap AV, Självständigt arbete"
+p.uoh.miu,Mittuniversitetet,S,75,"Engelsk lingvistik GR (A), Engelsk språkdidaktik | Engelsk lingvistik GR (A), Pragmatik: Skillnaden mellan det som sägs och menas | Engelsk lingvistik GR (A), Förbättra ditt engelska ordförråd"
+p.uoh.miu,Mittuniversitetet,U,10,"Matematikinlärning för förskollärare som undervisar i förskoleklass | Naturorienterande ämnen och teknik för lärare åk 1-3, (1-15 högskolepoäng). Ingår i Lärarlyftet | Vidareutveckling och analys av kvalitet i undervisning (VAK) med inriktning mot ämneslärare i språk och samhällsvetenskap"
+p.uoh.nmi,Newmaninstitutet,,1,Masterutbildning i teologi
+p.uoh.nmi,Newmaninstitutet,ORD,159,"Filosofins historia, I | Med tanke på Gud - Introduktion till religionsfilosofi | Om Gud"
+p.uoh.oru,Örebro universitet,B,3,Baskurs i svenska för lärarutbildningen | Tekniskt basår | Naturvetenskapligt basår
+p.uoh.oru,Örebro universitet,LF,6,Engelska för lärare i gymnasieskolan. Ingår i Lärarlyftet | Engelska för lärare i åk 4-6. Ingår i Lärarlyftet | Idrott och hälsa för lärare 1-3 (1-30). Ingår i Lärarlyftet
+p.uoh.oru,Örebro universitet,ORD,1293,"Arbetsterapi, Examensarbete | Arbetsterapi, Forskningsmetodik | Arbetsterapi, avancerad nivå, Kunskapssammanställning"
+p.uoh.oru,Örebro universitet,ULV,6,"Utbildningsvetenskaplig kärna I, inriktning 4-6 | Utlandsutbildade lärares vidareutbildning, ULV - grundlärare F-6 och fritidshem | Utlandsutbildade lärares vidareutbildning, ULV - ämneslärare 7-9 och gymnasieskolan"
+p.uoh.rkh,Röda Korsets Högskola,ORD,8,Globala perspektiv på infektionssjukdomar | Hälsa och vård vid infektionssjukdomar | Kompletterande utbildning för sjuksköterskor med utländsk examen från land utanför EU/EES och Schweiz
+p.uoh.sap,Högskolan Sapu - Skandinaviens Akademi för Psykoterapiutveckling,,7,Grundläggande psykoterapiutbildning  | Handledar- och lärarutbildning i psykoterapi | Psykoterapeutprogrammet
+p.uoh.sap,Högskolan Sapu - Skandinaviens Akademi för Psykoterapiutveckling,ORD,2,Grundläggande psykoterapiutbildning
+p.uoh.sh,Södertörns högskola,ORD,865,Affärsjuridik | Handelsrättslig översiktskurs | Beskattningsrätt
+p.uoh.sh,Södertörns högskola,S,3,"Digitala medier, desinformation och källkritik | Den politiska kampanjens retorik | Klimatretorik"
+p.uoh.sh,Södertörns högskola,U,1,"Naturorienterande ämnen och teknik för lärare åk 4-6 (1-30), Ingår i Lärarlyftet"
+p.uoh.sh,Södertörns högskola,UU,9,"Historia för lärare årskurs 7-9, (1-45) - Ingår i Lärarlyftet II | Vidareutveckling och analys av kvalitet i undervisning (VAK), förskollärare | Matematikinlärning för förskollärare som undervisar i förskoleklass (Uppdrag av  Skolverket)"
+p.uoh.shh,Sophiahemmet Högskola,ORD,18,"Introduktion till svensk hälso- och sjukvård | Specialistsjuksköterskeprogram, inriktning Palliativ vård, Marie Cederschiöld högskola och Sophiahemmet högskola (samordnat) | Specialistsjuksköterskeprogrammet – inriktning akutsjukvård"
+p.uoh.shh,Sophiahemmet Högskola,UKU,1,Förberedande kurspaket med mentorsstöd för sjuksköterskor med examen från icke EU/EES och Schweiz
+p.uoh.sih,Sankt Ignatios högskola,,31,Metod och teori i östkyrkliga studier | Heliga skrifter och östkyrkorna | Patristik: källor och metoder
+p.uoh.skh,Stockholms konstnärliga högskola,KUL,10,"Specialpedagogik med inriktning mot kulturskolan | Dans för barn och unga – ingår i Kulturskoleklivet | Pedagogiskt ledarskap i konstnärliga processer, ingår i Kulturskoleklivet"
+p.uoh.skh,Stockholms konstnärliga högskola,ORD,88,"Handstående, specialisering 5 | Konstnärligt utvecklingsarbete inom cirkusdisciplin III | Konstnärligt utvecklingsarbete inom cirkusdisciplin II"
+p.uoh.slu,Sveriges lantbruksuniversitet,B,8,Naturvetenskaplig bastermin - garantiplats kandidatprogrammet Biologi och miljövetenskap | Naturvetenskaplig bastermin - garantiplats till Agronomprogrammet livsmedel  | Naturvetenskaplig bastermin - garantiplats till Agronomprogrammet mark och växt
+p.uoh.slu,Sveriges lantbruksuniversitet,ORD,1497,Djurskydd och författningskunskap | Viltbiologi | Genetic diversity and plant breeding
+p.uoh.slu,Sveriges lantbruksuniversitet,UKU,6,"Kompletterande utbildning för veterinärer med utländsk examen från land utanför EU/EES och Schweiz | Kliniska färdigheter 1 | Livsmedelssäkerhet, djurvälfärd och författningskunskap"
+p.uoh.smi,Stockholms Musikpedagogiska Institut,,52,"Bild, ljud och lärande | Biämne - musikproduktion | Skapande dans 1 – Dansens verktyg"
+p.uoh.su,Stockholms universitet,KMP,17,Kompletteringsutbildning för utländska jurister | Examensarbete | Förvaltningsrätt med förvaltningsprocessrätt
+p.uoh.su,Stockholms universitet,MOF,2,Masterprogram i offentlig förvaltning och EU - Programinriktning statsvetenskap | Masterprogram i offentlig förvaltning och EU - Programinriktning nationalekonomi
+p.uoh.su,Stockholms universitet,NÄT,15,Programmering för Internet | Programmering för mobiler | Webbutveckling I
+p.uoh.su,Stockholms universitet,ORD,4573,Arabiska med inriktning mot Mellanöstern- och Nordafrikastudier I | Arabiska med inriktning mot Mellanöstern- och Nordafrikastudier - kandidatkurs | Arabiska med inriktning mot Mellanöstern- och Nordafrikastudier II
+p.uoh.su,Stockholms universitet,S,22,"Egypten | Tvåspråkighet och tvåspråkig utveckling hos barn | Kultur, kommunikation och språklig mångfald"
+p.uoh.su,Stockholms universitet,SKV,17,"Svenska som andraspråk för lärare i åk 7–9, 45 hp (1–45). Ingår i Lärarlyftet. | SO för lärare åk 1-3, 15 hp (1-15 hp). Ingår i Lärarlyftet. | SO för lärare åk 4-6, 30 hp (1-30 hp). Ingår i Lärarlyftet."
+p.uoh.su,Stockholms universitet,SPL,6,Speciallärarprogrammet -  Specialisering mot dövhet eller hörselskada | Speciallärarprogrammet -  Specialisering mot synskada | Speciallärarprogrammet - Specialisering mot intellektuell funktionsnedsättning
+p.uoh.su,Stockholms universitet,SVE,3,Svenska som främmande språk - Förberedande kurs
+p.uoh.su,Stockholms universitet,TÖI,90,"Masterprogram i tolkning, inriktning konferenstolkning | Masterprogram i tolkning, inriktning tolkning | Kandidatprogram i teckenspråk och tolkning, inriktning Tolkning mellan svenskt teckenspråk och svenska"
+p.uoh.su,Stockholms universitet,ULV,3,Utlandsutbildade lärares vidareutbildning (ULV)
+p.uoh.su,Stockholms universitet,UP,11,"Vidareutveckling och analys av kvalitet i undervisning för ämneslärare i gymnasieskola - uppdragsutbildning | Vidareutveckling och analys av kvalitet i undervisning för lärare i grundskola, motsvarande skolformer samt fritidshem - uppdragsutbildning | Vidareutveckling och analys av kvalitet i undervisning för ämneslärare och yrkeslärare i gymnasieskolan - uppdragsutbildning"
+p.uoh.su,Stockholms universitet,VAL,11,VAL - inriktning förskollärare | VAL - vidareutbildning av lärare som saknar lärarexamen
+p.uoh.umu,Umeå universitet,,3,"Senare del av Masterprogrammet i medie- och kommunikationsvetenskap, T3 | Magisterprogrammet i biblioteks- och informationsvetenskap - bibliotek för forskning och högre utbildning | Senare del av Specialistsjuksköterskeprogrammet med inriktning mot hjärtsjukvård, T3"
+p.uoh.umu,Umeå universitet,B,12,Biologi baskurs II | Biologi baskurs I | Fysik baskurs I
+p.uoh.umu,Umeå universitet,IH,15,"Företagsekonomi A61 | Idrottspedagogiska perspektiv på utmaningar inom idrottens område | Idrott, fostran och socialisation"
+p.uoh.umu,Umeå universitet,KS,45,"Introduktion till kandidatprogrammet i fri konst | Konsthistoria och konstteori från DADA till idag, A | Individuellt konstnärligt arbete, A"
+p.uoh.umu,Umeå universitet,LLY,6,"Franska för lärare i åk 7–9 (1–45 hp). Ingår i Lärarlyftet. | Spanska för lärare i åk 7-9 (1-45 hp). Ingår i Lärarlyftet | Slöjd för lärare åk 1-3, 30 hp (1-30hp). Ingår i Lärarlyftet"
+p.uoh.umu,Umeå universitet,NÄT,356,"Arkeologi B, internetkurs | Arkeologi A, internetkurs | Engelska: Att tillämpa kognitiv lingvistik i främmandespråksundervisningen "
+p.uoh.umu,Umeå universitet,ORD,4246,Arkeologi A - Europas och Nordens forntid   | Arkeologi B – metoder och nordliga perspektiv  | Miljöarkeologi: metoder i teori och praktik
+p.uoh.umu,Umeå universitet,U,4,Vidareutveckling och analys av kvalitet i undervisning – ämneslärare i praktiska och estetiska ämnen | Matematikinlärning för förskollärare som undervisar i förskoleklass (Uppdrag av Skolverket)  | Vidareutveckling och analys av kvalitet i undervisning (VAK) för speciallärare
+p.uoh.umu,Umeå universitet,UKS,12,"Kulturskolans didaktik 1 - Estetik, bildning och digitala verktyg  | Estetiska ämnen C - inriktning kulturskolepedagogik | Undervisa i Kulturskolan"
+p.uoh.umu,Umeå universitet,UKU,32,"Rätten i socialt arbete för kompletteringsutbildning i socialt arbete | Kompletteringskurs: Psykologprofessionen - profession, etik och juridik | Kompletteringskurs: Samtalsmetodik för psykologer"
+p.uoh.umu,Umeå universitet,ULV,2,Utlandsutbildade lärares vidareutbildning (ULV) - distans med campusträffar
+p.uoh.umu,Umeå universitet,VAL,2,Vidareutbildning av lärare (VAL)
+p.uoh.uu,Uppsala universitet,B,16,Tekniskt-naturvetenskapligt basår med reserverad plats på ett naturvetenskapligt kandidatprogram | Tekniskt-naturvetenskapligt basår med reserverad plats på ett civilingenjörsprogram | Tekniskt-naturvetenskapligt basår med reserverad plats på ett högskoleingenjörsprogram
+p.uoh.uu,Uppsala universitet,CGO,411,Naturvetenskap och teknik för grundlärarprogrammet med inriktning mot F-3 | Naturvetenskap och teknik för grundlärare 4-6 | Introduktion till biologi
+p.uoh.uu,Uppsala universitet,LL,18,Mikrobiologiska laborationer och säkerhet för ämneslärare | Biomolekylär arkeologi | Bioinformatik i skolan för ämneslärare
+p.uoh.uu,Uppsala universitet,MIU,2,Biomedicinska analytikerprogrammet
+p.uoh.uu,Uppsala universitet,ORD,4232,Naturkunskap och didaktik | Floristik och faunistik L | Naturvetenskap och teknik för grundlärarprogrammet med inriktning mot F-3
+p.uoh.uu,Uppsala universitet,U,7,Läs- och skrivinlärning för förskollärare som undervisar i förskoleklass | Lek och rörelse i förskolan (uppdragsutbildning) | Vidareutveckling och analys av kvalitet i undervisning för grundlärare och ämneslärare (Vak)
+p.uoh.uu,Uppsala universitet,UKU,8,Kompletteringsutbildning för apotekare med utländsk examen | Kompletteringsutbildning för biomedicinska analytiker med utländsk examen | Kompletteringsutbildning för psykologer med utländsk examen
+p.uoh.uu,Uppsala universitet,UL,7,"Biologi för lärare i åk 7-9, 45 hp (1-45). Ingår i Lärarlyftet | Hem- och konsumentkunskap för lärare i åk 7-9, 45 hp (1-45). Ingår i Lärarlyftet | Matematik för lärare i åk 4-6, 30 hp (1-30). Ingår i Lärarlyftet"

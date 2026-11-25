@@ -85,8 +85,7 @@ senast_andrad_tillfalle, senast_andrad_utbildning` (+ `beskrivning_sv, behorighe
 GitHub Actions-flödet `.github/workflows/susa-snapshot.yml` i repot dr-ajson/SUSA körs varje måndag
 (och manuellt via *Run workflow*). Det gör en full hämtning av HS och sedan:
 - **Release `susa-hs-ÅÅÅÅ-MM-DD`** med hela tabellen `hs_<datum>.csv.gz` (alla kolumner ovan utom fritext).
-  Hämta en bild: `gh release download susa-hs-ÅÅÅÅ-MM-DD -R dr-ajson/SUSA -p 'hs_*.csv.gz'`.
-  Den ursprungliga ögonblicksbilden från 2026-11-24 finns i [Privat](https://github.com/dr-ajson/Privat/releases/tag/susa-hs-2026-11-24).
+  Hämta en bild: `gh release download susa-hs-2026-11-24 -R dr-ajson/SUSA -p 'hs_*.csv.gz'`.
 - **`snapshots/sammanstallning.csv`** – tidsserie per lärosäte och datum: tillfallen, installda,
   utbildningar, kurser, program, kurspaket, distans, deltid, kvall_helg_blandad, engelska,
   ej_ord_finansiering, ll_kth. Räknat på ej inställda tillfällen; utbildningar = unika (kod, typ).

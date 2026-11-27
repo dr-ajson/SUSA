@@ -6,12 +6,22 @@ description: Hämta och analysera svenskt utbildningsutbud från Susa-navet (Sko
 # Susa-navet
 
 Öppet REST-API utan nyckel: `https://api.skolverket.se/susa-navet/emil3` (v3, data uppdateras dagligen).
-Direkt hämtning kräver åtkomst till `api.skolverket.se`. Om API:et är otillgängligt, använd en tillgänglig cache eller daterad ögonblicksbild som täcker frågan. Ange källa, hämtdatum och vilka utbildningsformer och uppgifter den täcker. Välj en ögonblicksbild för rätt skolform. Läs en bifogad datafil direkt om användaren har lämnat en sådan. I ChatGPT går det att ladda ner en releasefil i webbläsaren, packa upp CSV-filen och bifoga den i chatten. Kontrollera uppgifter som saknas hos anordnaren när informationen är åtkomlig. Redovisa vilka delar av sökningen som gick att genomföra.
+Läs `references/datamodell.md` när en fråga kräver tolkning av datafält, finansieringsform eller API-filter.
 
-Läs `references/datamodell.md` innan du tolkar fält. Den beskriver kopplingar, filter som
-inte fungerar och hur finansieringsform ska tolkas.
+## Hitta utbildningar direkt efter installationen
 
-## Arbetsgång
+Använd `python3 scripts/catalog.py search` från den installerade skillens mapp för frågor om utbildningsutbud och vägledande matchning. Skriptet kontrollerar automatiskt det senaste publicerade datumet i det öppna SUSA-repot. Det hämtar bara de skolformer som ska genomsökas och använder den medföljande ögonblicksbilden om hämtningen är otillgänglig. Användaren behöver bara installera skillen och ställa sin fråga. Be inte om en GitHub-koppling, manuell hämtning eller en bifogad datafil innan du prövat den vägen.
+
+```bash
+python3 scripts/catalog.py search --school-type YH --query "produktionsplanering" --query "projektledning industri"
+python3 scripts/catalog.py search --school-type HS YH --query "dataanalys" --provider "Tekniska" --limit 10
+```
+
+Inom varje `--query` ska alla ord matcha. Upprepa flaggan för alternativa termer. Träffar söks i titlar, utbildningsbeskrivningar och nyckelord. Utgå från personens mål och använd den vägledande arbetsgången nedan för att pröva och bedöma lämpliga spår. Sök bredare om de första termerna ger få träffar. Använd skolform för att avgränsa sökningen när personen redan har valt utbildningsslag.
+
+Ange datum och källa enligt `kallor` i resultatet. Om en medföljande ögonblicksbild använts, säg att resultatet avser den daterade bilden och att nyare ändringar eller ansökningsstatus kan behöva kontrolleras. Om miljön varken kan köra skript eller läsa den medföljande datan, använd tillgänglig webbsökning för att kontrollera utbildningar hos ansvariga anordnare. Redovisa de skolformer som inte kunde sökas. För fullständig export, egna tidsserier eller kontroll i realtid, använd arbetsgången nedan när den fungerar.
+
+## Direkt API-hämtning och egna analyser
 
 1. **Hämta till cache en gång** (HS tar ca 4 min, ca 20 MB komprimerat):
    ```bash
@@ -42,11 +52,11 @@ Anordnar-id för alla lärosäten finns i `references/anordnare_hs.csv` (KTH = `
 
 ## Vägledande matchning av utbildningar
 
-Använd detta arbetssätt när en person söker utbildning utifrån sin kompetens eller vill utforska nästa steg i arbetslivet. Börja med uppgifterna personen redan har lämnat. För en vanlig fråga om utbildningsutbud, använd arbetsgången ovan.
+Använd detta arbetssätt när en person söker utbildning utifrån sin kompetens eller vill utforska nästa steg i arbetslivet. Börja med uppgifterna personen redan har lämnat. För en vanlig fråga om utbildningsutbud, gå direkt till katalogsökningen.
 
 1. **Utforska riktningen.** Utgå från vad personen vill kunna göra efter utbildningen. Om målet är öppet, föreslå två eller tre möjliga riktningar utifrån personens berättelse och be personen reagera. Ställ en eller två frågor åt gången om uppgifter som kan ändra sökningen, exempelvis önskade arbetsuppgifter eller krav på studietakt, distans, ort eller tidpunkt. Gå direkt till sökning när uppgifterna räcker för ett användbart urval. När personen förtydligar eller korrigerar något, uppdatera din tolkning av målet och profilen. Justera söktermer, utbildningsspår eller rangordning där svaret påverkar dem, och säg kort vad som ändrades och varför.
 2. **Fånga vad personen kan i dag.** Fråga vid behov om ett konkret projekt, ett problem eller ett ansvar och vad personen själv gjorde. Ta med relevanta tidigare roller och branschbyten, senare kurser, fortbildning, certifieringar och lärande i arbetet. Väg kompetensen efter kopplingen till målet, graden av självständighet och ansvar i tillämpningen, hur den kan överföras och hur nyligen den användes. Låt nyare, konkret tillämpad kompetens väga tyngre när den har starkare koppling till målet. Ge äldre utbildning vikt för relevansen när innehållet bidrar konkret till målet. Bedöm examens betydelse för formell behörighet separat. Slutsatser om kompetens behöver underlag utöver examenstitel, yrkestitel och antal yrkesår. Spegla kort vilka styrkor och överförbara kunskaper du uppfattat. Markera antaganden så att personen kan korrigera dem.
-3. **Sök på kompetenser och lärandemål.** Översätt profilen till ämnen, arbetsuppgifter och närliggande söktermer. Pröva fördjupning i nuvarande riktning och närliggande områden där kunskaperna går att använda. Om personen överväger ett byte, sök efter utbildningar som överbryggar konkreta kunskapsluckor. Använd `--with-text` för att söka i beskrivningar och läsa behörighetskrav och rekommenderade förkunskaper. Sök över relevanta anordnare och utbildningsformer utifrån personens mål. Kontrollera aktuellt utbildningstillfälle, ansökningsuppgifter och eventuella obligatoriska träffar när de påverkar valet. Kontrollera att en kurs är sökbar fristående om det är ett krav. Om uppgifterna saknas i Susa-navet, använd anordnarens publicerade information när den är tillgänglig.
+3. **Sök på kompetenser och lärandemål.** Översätt profilen till ämnen, arbetsuppgifter och närliggande söktermer. Pröva fördjupning i nuvarande riktning och närliggande områden där kunskaperna går att använda. Om personen överväger ett byte, sök efter utbildningar som överbryggar konkreta kunskapsluckor. Sök i katalogens beskrivningar och läs behörighetskrav och rekommenderade förkunskaper. Använd `--with-text` om du tillplattar en cache från API:et. Sök över relevanta anordnare och utbildningsformer utifrån personens mål. Kontrollera aktuellt utbildningstillfälle, ansökningsuppgifter och eventuella obligatoriska träffar när de påverkar valet. Kontrollera att en kurs är sökbar fristående om det är ett krav. Om uppgifterna saknas i Susa-navet, använd anordnarens publicerade information när den är tillgänglig.
 4. **Motivera träffarna och redovisa behörighetsunderlaget.** Rangordna träffarna efter hur väl de svarar mot målet och de praktiska villkor personen angett. Redovisa två uppgifter för varje träff.
    - **Relevans.** Ange vilket lärandemål som passar, vilken konkret kompetens utbildningen bygger vidare på och vilken kunskapslucka den kan fylla.
    - **Behörighetsunderlag.** Ange vad källan säger om aktuella behörighetskrav och eventuella rekommenderade förkunskaper. Beskriv vilka krav personens uppgifter tyder på att hen uppfyller och vilket krav eller underlag som återstår att kontrollera. Markera när uppgifterna om ett krav saknas. Låt ämnesmässigt starka träffar stå kvar vid osäkerhet och hänvisa vid behov till ansvarig utbildningsanordnare eller antagningsfunktion för bedömning av reell kompetens.
@@ -85,7 +95,7 @@ senast_andrad_tillfalle, senast_andrad_utbildning` (+ `beskrivning_sv, behorighe
 
 ## Veckovisa ögonblicksbilder (historik)
 
-Hämta rätt skolform från https://github.com/dr-ajson/SUSA/releases. Varje ny ögonblicksbild har en release `susa-<kod>-ÅÅÅÅ-MM-DD` med filen `<kod>_ÅÅÅÅ-MM-DD.csv.gz` (gemener). De nya filerna innehåller utbildningsbeskrivning, behörighetskrav och rekommenderade förkunskaper där källan tillhandahåller dem.
+Katalogen läser [senaste publicerade datum](https://raw.githubusercontent.com/dr-ajson/SUSA/main/snapshots/latest.json) automatiskt. För historiska jämförelser finns filer för varje skolform på https://github.com/dr-ajson/SUSA/releases. Varje ny ögonblicksbild har en release `susa-<kod>-ÅÅÅÅ-MM-DD` med filen `<kod>_ÅÅÅÅ-MM-DD.csv.gz` (gemener). De nya filerna innehåller utbildningsbeskrivning, behörighetskrav och rekommenderade förkunskaper där källan tillhandahåller dem.
 
 | Kod | Utbud som hämtas |
 |---|---|

@@ -4,11 +4,6 @@ on:
   schedule:
     - cron: "17 4 * * 1"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/susa-snapshot.yml'
-      - 'skills/susa-navet/scripts/*.py'
 
 permissions:
   contents: write
@@ -77,6 +72,11 @@ jobs:
               gh release create "$tag" "$file" --title "Susa-navet $school_type $SNAPSHOT_DATE" --notes-file "$notes"
             fi
           done
+
+      - name: Peka katalogen på det nya utbudet
+        env:
+          SNAPSHOT_DATE: ${{ steps.d.outputs.date }}
+        run: python "$SCRIPTS/catalog.py" manifest --date "$SNAPSHOT_DATE" --out snapshots/latest.json
 
       - name: Committa tidsserier och ändringsrapporter
         env:

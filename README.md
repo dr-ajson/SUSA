@@ -2,9 +2,13 @@
 
 [Skillen Susa-navet](skills/susa-navet/SKILL.md) hämtar, synkar och analyserar svenskt utbildningsutbud från Skolverkets öppna API.
 
+## Använda skillen
+
+Installera hela ZIP-paketet med instruktioner, skript och en daterad kopia av utbudet. Katalogen hämtar senaste [publicerade ögonblicksbild](snapshots/latest.json) automatiskt från det öppna repot. En installation kan därmed använda nya data utan att uppdatera själva skillen. Om körmiljön saknar nätåtkomst används den medföljande bilden, och svaret ska ange datumet. Ingen GitHub-inloggning eller anslutning behövs för den publika hämtningen.
+
 ## Veckovisa ögonblicksbilder
 
-[GitHub Actions](.github/workflows/susa-snapshot.yml) hämtar utbudet varje måndag 04:17 UTC och kan köras manuellt. Varje skolform får en daterad [release](https://github.com/dr-ajson/SUSA/releases) med en komprimerad CSV. Filen innehåller utbildningsbeskrivning, behörighetskrav och rekommenderade förkunskaper där uppgifterna finns i källan.
+[GitHub Actions](.github/workflows/susa-snapshot.yml) hämtar utbudet varje måndag 04:17 UTC och kan köras manuellt. När alla filer är publicerade uppdaterar flödet datumet i katalogen. Varje skolform får en daterad [release](https://github.com/dr-ajson/SUSA/releases) med en komprimerad CSV. Filen innehåller utbildningsbeskrivning, behörighetskrav och rekommenderade förkunskaper där uppgifterna finns i källan.
 
 | Kod | Utbud |
 |---|---|

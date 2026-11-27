@@ -1,15 +1,22 @@
 # SUSA-navet
 
-## Skills
+[Skillen Susa-navet](skills/susa-navet/SKILL.md) hämtar, synkar och analyserar svenskt utbildningsutbud från Skolverkets öppna API.
 
-| Skill | Beskrivning |
+## Veckovisa ögonblicksbilder
+
+[GitHub Actions](.github/workflows/susa-snapshot.yml) hämtar utbudet varje måndag 04:17 UTC och kan köras manuellt. Varje skolform får en daterad [release](https://github.com/dr-ajson/SUSA/releases) med en komprimerad CSV. Filen innehåller utbildningsbeskrivning, behörighetskrav och rekommenderade förkunskaper där uppgifterna finns i källan.
+
+| Kod | Utbud |
 |---|---|
-| [`skills/susa-navet`](skills/susa-navet/SKILL.md) | Hämta, synka och analysera utbildningsutbud från Susa-navet (Skolverkets/UHR:s öppna API). |
+| HS | Universitet, högskolor och polisutbildning |
+| YH | Yrkeshögskolan |
+| FHS | Folkhögskolan, flera utbildningsnivåer |
+| KKU | Konst- och kulturutbildningar |
+| AU | Annan undervisning, däribland utbildningar med endast tillsyn |
+| AUB | Arbetsförmedlingens utbildningar, flera utbildningsnivåer |
 
-## Automatiska flöden
+Release och fil heter `susa-<kod>-ÅÅÅÅ-MM-DD` respektive `<kod>_ÅÅÅÅ-MM-DD.csv.gz`, med kod i gemener. Tidsserier och ändringsrapporter finns i `snapshots/` för HS och `snapshots/<kod>/` för de övriga. Den första [HS-bilden från 24 november 2026](https://github.com/dr-ajson/SUSA/releases/tag/susa-hs-2026-11-24) finns kvar i sitt ursprungliga format.
 
-| Flöde | Schema | Resultat |
-|---|---|---|
-| [`susa-snapshot.yml`](.github/workflows/susa-snapshot.yml) | Måndagar 04:17 UTC + manuellt | Release `susa-hs-<datum>` med hela HS-utbudet, tidsserien [`snapshots/sammanstallning.csv`](snapshots/sammanstallning.csv) och veckovisa ändringsrapporter i [`snapshots/andringar/`](snapshots/andringar/) |
+Ögonblicksbilderna återger utbudet som källan publicerar vid hämtningen. För FHS och AUB behöver utbildningsnivån bedömas per post. Förutbildning inom HS redovisas med sin egen nivå. Nationell yrkesutbildning (NY) är gymnasial. För utbildningar med endast tillsyn kan [MYH:s utbudslista](https://www.myh.se/statistik/statistik-utbildningar-med-endast-tillsyn/utbildningar-och-platser) komplettera API:et.
 
-Den första [ögonblicksbilden från 24 november 2026](https://github.com/dr-ajson/SUSA/releases/tag/susa-hs-2026-11-24) finns som release. Tidsserien och ändringsrapporten för det datumet finns här i `snapshots/`.
+Ladda ner rätt releasefil, packa upp CSV-filen och bifoga den för analys i ChatGPT. Det fungerar även utan att ansluta GitHub till ChatGPT.

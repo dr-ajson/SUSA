@@ -2,8 +2,13 @@ name: Susa-navet – veckovis ögonblicksbild
 
 on:
   schedule:
-    - cron: "17 4 * * 1"   # måndagar 04:17 UTC (05:17/06:17 svensk tid)
+    - cron: "17 4 * * 1"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/susa-snapshot.yml'
+      - 'skills/susa-navet/scripts/*.py'
 
 permissions:
   contents: write
@@ -19,6 +24,7 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       SCRIPTS: skills/susa-navet/scripts
+      SCHOOL_TYPES: HS YH FHS KKU AU AUB
     steps:
       - uses: actions/checkout@v5
 
@@ -30,34 +36,51 @@ jobs:
         id: d
         run: echo "date=$(date -u +%F)" >> "$GITHUB_OUTPUT"
 
-      - name: Hämta HS från Susa-navet
-        run: python "$SCRIPTS/susa.py" fetch --cache data/hs --school-type HS
-
-      - name: Hämta föregående ögonblicksbild
-        id: prev
+      - name: Hämta och bygg ögonblicksbilder per skolform
+        env:
+          SNAPSHOT_DATE: ${{ steps.d.outputs.date }}
         run: |
-          tag=$(gh release list --limit 20 --json tagName -q '[.[] | select(.tagName | startswith("susa-hs-"))][0].tagName // ""')
-          if [ -n "$tag" ] && [ "$tag" != "susa-hs-${{ steps.d.outputs.date }}" ]; then
-            gh release download "$tag" --pattern 'hs_*.csv.gz' --dir prev
-            echo "file=$(ls prev/hs_*.csv.gz | head -1)" >> "$GITHUB_OUTPUT"
-          fi
+          release_tags=$(gh release list --limit 100 --json tagName --jq '.[].tagName')
+          for school_type in $SCHOOL_TYPES; do
+            prefix=${school_type,,}
+            python "$SCRIPTS/susa.py" fetch --cache "data/$prefix" --school-type "$school_type"
+            previous_args=()
+            previous_tag=$(awk -v prefix="susa-$prefix-" -v today="$SNAPSHOT_DATE" '
+              index($0, prefix) == 1 {
+                day = substr($0, length(prefix) + 1)
+                if (length(day) == 10 && day < today && day > latest) latest = day
+              }
+              END { if (latest != "") print prefix latest }
+            ' <<< "$release_tags")
+            if [[ -n "$previous_tag" ]]; then
+              previous_file="${prefix}_${previous_tag#susa-$prefix-}.csv.gz"
+              gh release download "$previous_tag" --pattern "$previous_file" --dir "prev/$prefix"
+              previous_args=(--previous "prev/$prefix/$previous_file")
+            fi
+            python "$SCRIPTS/snapshot.py" --school-type "$school_type" --cache "data/$prefix" \
+              --out-dir "out/$prefix" --repo-dir . --date "$SNAPSHOT_DATE" "${previous_args[@]}"
+          done
 
-      - name: Bygg ögonblicksbild, tidsserie och ändringsrapport
+      - name: Publicera ögonblicksbilder
+        env:
+          SNAPSHOT_DATE: ${{ steps.d.outputs.date }}
         run: |
-          python "$SCRIPTS/snapshot.py" --cache data/hs --out-dir out --repo-dir . \
-            --date "${{ steps.d.outputs.date }}" ${{ steps.prev.outputs.file && format('--previous {0}', steps.prev.outputs.file) || '' }}
+          for school_type in $SCHOOL_TYPES; do
+            prefix=${school_type,,}
+            tag="susa-$prefix-$SNAPSHOT_DATE"
+            file="out/$prefix/${prefix}_$SNAPSHOT_DATE.csv.gz"
+            notes="out/$prefix/release_notes.md"
+            if gh release view "$tag" >/dev/null 2>&1; then
+              gh release upload "$tag" "$file" --clobber
+              gh release edit "$tag" --notes-file "$notes"
+            else
+              gh release create "$tag" "$file" --title "Susa-navet $school_type $SNAPSHOT_DATE" --notes-file "$notes"
+            fi
+          done
 
-      - name: Publicera release
-        run: |
-          tag="susa-hs-${{ steps.d.outputs.date }}"
-          if gh release view "$tag" >/dev/null 2>&1; then
-            gh release upload "$tag" out/hs_*.csv.gz --clobber
-            gh release edit "$tag" --notes-file out/release_notes.md
-          else
-            gh release create "$tag" out/hs_*.csv.gz --title "Susa-navet HS ${{ steps.d.outputs.date }}" --notes-file out/release_notes.md
-          fi
-
-      - name: Committa tidsserie och ändringsrapport
+      - name: Committa tidsserier och ändringsrapporter
+        env:
+          SNAPSHOT_DATE: ${{ steps.d.outputs.date }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -65,7 +88,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Inget nytt att committa."
           else
-            git commit -m "Susa-navet: ögonblicksbild ${{ steps.d.outputs.date }}"
+            git commit -m "Susa-navet: ögonblicksbilder $SNAPSHOT_DATE"
             git pull --rebase
             git push
           fi

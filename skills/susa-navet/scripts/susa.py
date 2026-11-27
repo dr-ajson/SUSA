@@ -90,10 +90,10 @@ def iter_resource(resource: str, school_types: list[str] | None = None, provider
     while True:
         q = urllib.parse.urlencode(params + [("page", str(page))])
         d = _get_json(f"{BASE}/{name}?{q}")
-        if d is None:
-            return
-        items = d.get(name) or []
-        meta = d.get("page") or {}
+        if not isinstance(d, dict) or not isinstance(d.get(name), list) or not isinstance(d.get("page"), dict):
+            raise RuntimeError(f"Ogiltigt listsvar för {name}, sida {page}, skolform {school_types}.")
+        items = d[name]
+        meta = d["page"]
         if progress:
             tp = meta.get("totalPages", "?")
             print(f"  {name}: sida {page + 1}/{tp} ({meta.get('totalElements', '?')} poster)", file=sys.stderr)
@@ -256,7 +256,7 @@ def flatten_event(ev: dict, infos: dict[str, dict], providers: dict[str, dict], 
         "studietakt_pct": (c.get("paceOfStudy") or {}).get("percentage"),
         "studietid": (c.get("timeOfStudy") or {}).get("code"),
         "undervisningssprak": _join(c.get("languageOfInstructions") or []),
-        "studieort": _join(lang(l.get("studyLocation")) for l in locs),
+        "studieort": _join(lang(l.get("studyLocation")) or l.get("town") for l in locs),
         "kommunkod": _join(l.get("areaCode") for l in locs),
         "distans": "distance" in c,
         "obligatoriska_traffar": (c.get("distance") or {}).get("noOfMandatorySessions"),
@@ -276,6 +276,7 @@ def flatten_event(ev: dict, infos: dict[str, dict], providers: dict[str, dict], 
         "installd": c.get("isCancelled"),
         "url_sv": lang(c.get("url"), "swe"),
         "url_en": lang(c.get("url"), "eng"),
+        "ansokningsurl_sv": lang((c.get("application") or {}).get("url"), "swe"),
         "nyckelord": _join(s.get("value") for k in c.get("keywords") or [] for s in k.get("strings") or []),
         "senast_andrad_tillfalle": c.get("lastEdited"),
         "senast_andrad_utbildning": info.get("lastEdited"),

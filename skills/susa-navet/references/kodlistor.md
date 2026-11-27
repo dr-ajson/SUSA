@@ -6,16 +6,18 @@
 |---|---|
 | HS | Högskola (inkl. polisutbildning) |
 | YH | Yrkeshögskola |
-| FHS | Folkhögskola |
+| FHS | Folkhögskola, blandade utbildningsnivåer |
 | AUB | Arbetsmarknadsutbildning |
 | VUXGR / VUXGY | Komvux grundläggande / gymnasial nivå |
 | VUXGRAN / VUXGYAN | Komvux som anpassad utbildning, grundläggande / gymnasial |
 | VUXSFI | Komvux i svenska för invandrare |
-| NY | Nationell yrkesutbildning |
+| NY | Nationell yrkesutbildning på gymnasial nivå |
 | GY / GYAN | Gymnasieskola / anpassad gymnasieskola |
 | GR / GRAN / SP / SAM | Grundskola / anpassad grundskola / specialskola / sameskola |
 | FKLASS, FTH, OPPFTH | Förskoleklass, fritidshem, öppen fritidsverksamhet |
-| KKU, KU, STF, AU | Konst- och kulturutbildning, kulturskola, studieförbund, annan undervisning |
+| KKU | Konst- och kulturutbildning |
+| AU | Annan undervisning, inklusive utbildningar med endast tillsyn i API:et |
+| KU, STF | Kulturskola, studieförbund |
 
 Källa: OpenAPI-specen v3.0.4. Täckningen varierar – Komvux var vid införandet bara delvis inläst.
 

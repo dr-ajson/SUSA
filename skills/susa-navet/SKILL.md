@@ -6,7 +6,7 @@ description: Hämta och analysera svenskt utbildningsutbud från Susa-navet (Sko
 # Susa-navet
 
 Öppet REST-API utan nyckel: `https://api.skolverket.se/susa-navet/emil3` (v3, data uppdateras dagligen).
-Direkt hämtning kräver åtkomst till `api.skolverket.se`. Om API:et är otillgängligt, använd en tillgänglig cache eller daterad ögonblicksbild som täcker frågan. Ange källa, hämtdatum och vilka utbildningsformer och uppgifter den täcker. Repots veckovisa ögonblicksbilder gäller högskoleutbildning (HS) och saknar fritext. För andra utbildningsformer eller för uppgifter som saknas, använd i stället en relevant cache eller kontrollera uppgifterna i anordnarens publicerade information när den är åtkomlig. Redovisa vilka delar av sökningen som gick att genomföra.
+Direkt hämtning kräver åtkomst till `api.skolverket.se`. Om API:et är otillgängligt, använd en tillgänglig cache eller daterad ögonblicksbild som täcker frågan. Ange källa, hämtdatum och vilka utbildningsformer och uppgifter den täcker. Välj en ögonblicksbild för rätt skolform. Läs en bifogad datafil direkt om användaren har lämnat en sådan. I ChatGPT går det att ladda ner en releasefil i webbläsaren, packa upp CSV-filen och bifoga den i chatten. Kontrollera uppgifter som saknas hos anordnaren när informationen är åtkomlig. Redovisa vilka delar av sökningen som gick att genomföra.
 
 Läs `references/datamodell.md` innan du tolkar fält. Den beskriver kopplingar, filter som
 inte fungerar och hur finansieringsform ska tolkas.
@@ -62,7 +62,7 @@ niva, poang, poangsystem, leder_till_examen, examen, amnen_uh, start, slut, star
 startperiod, startvecka, studietakt_pct, studietid, undervisningssprak, studieort, kommunkod, distans,
 obligatoriska_traffar, it_distans, anmalningskod, sista_anmalan, antagningsomgang, urvalsmodell,
 antal_platser, institution, finansieringsform, studieavgift, avgift_forsta, avgift_total,
-synlig_internationellt, endast_inom_program, installd, url_sv, url_en, nyckelord,
+synlig_internationellt, endast_inom_program, installd, url_sv, url_en, ansokningsurl_sv, nyckelord,
 senast_andrad_tillfalle, senast_andrad_utbildning` (+ `beskrivning_sv, behorighet_sv, forkunskaper_sv` med `--with-text`).
 
 ## Regler för analys
@@ -85,18 +85,20 @@ senast_andrad_tillfalle, senast_andrad_utbildning` (+ `beskrivning_sv, behorighe
 
 ## Veckovisa ögonblicksbilder (historik)
 
-GitHub Actions-flödet `.github/workflows/susa-snapshot.yml` i repot dr-ajson/SUSA körs varje måndag
-(och manuellt via *Run workflow*). Det gör en full hämtning av HS och sedan:
-- **Release `susa-hs-ÅÅÅÅ-MM-DD`** med hela tabellen `hs_<datum>.csv.gz` (alla kolumner ovan utom fritext).
-  Hämta en bild: `gh release download susa-hs-2026-11-24 -R dr-ajson/SUSA -p 'hs_*.csv.gz'`.
-- **`snapshots/sammanstallning.csv`** – tidsserie per lärosäte och datum: tillfallen, installda,
-  utbildningar, kurser, program, kurspaket, distans, deltid, kvall_helg_blandad, engelska,
-  ej_ord_finansiering, ll_kth. Räknat på ej inställda tillfällen; utbildningar = unika (kod, typ).
-- **`snapshots/andringar/<datum>.md`** – nya och försvunna utbildningar jämfört med föregående vecka.
+Hämta rätt skolform från https://github.com/dr-ajson/SUSA/releases. Varje ny ögonblicksbild har en release `susa-<kod>-ÅÅÅÅ-MM-DD` med filen `<kod>_ÅÅÅÅ-MM-DD.csv.gz` (gemener). De nya filerna innehåller utbildningsbeskrivning, behörighetskrav och rekommenderade förkunskaper där källan tillhandahåller dem.
 
-För frågor om utveckling över tid: börja i `sammanstallning.csv`; gå till release-filerna för detaljer.
-Historiken börjar vid första körningen – äldre utbud kan inte återskapas ur API:et.
-Lokalt: `python scripts/snapshot.py --cache data/hs --out-dir out --repo-dir . --previous <föregående>.csv.gz`.
+| Kod | Utbud som hämtas |
+|---|---|
+| HS | Universitet, högskolor och polisutbildning |
+| YH | Yrkeshögskolans program, kurser och kurspaket som finns i API:et |
+| FHS | Folkhögskolans utbud på olika nivåer |
+| KKU | Konst- och kulturutbildningar |
+| AU | Annan undervisning, däribland utbildningar med endast tillsyn |
+| AUB | Arbetsförmedlingens utbildningar på olika nivåer |
+
+För strikt eftergymnasiala urval, kontrollera nivå och behörighetskrav per utbildning i FHS och AUB, samt HS-poster märkta förutbildning. Redovisa okänd nivå separat. NY är nationell yrkesutbildning på gymnasial nivå. För endast tillsyn kan [MYH:s utbudslista](https://www.myh.se/statistik/statistik-utbildningar-med-endast-tillsyn/utbildningar-och-platser) komplettera API-posterna.
+
+För historiska jämförelser, använd samma skolform. Tidsserier och ändringsrapporter finns i `snapshots/` för HS och `snapshots/<kod>/` för de övriga. Historiken börjar vid första hämtningen för respektive skolform. Den ursprungliga HS-bilden har inga fritextkolumner.
 
 ## Koppling till sektordatabasen
 

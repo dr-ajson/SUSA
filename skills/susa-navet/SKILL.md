@@ -10,7 +10,7 @@ Läs `references/datamodell.md` när en fråga kräver tolkning av datafält, fi
 
 ## Hitta utbildningar direkt efter installationen
 
-Använd `python3 scripts/catalog.py search` från den installerade skillens mapp för frågor om utbildningsutbud och vägledande matchning. Skriptet kontrollerar automatiskt det senaste publicerade datumet i det öppna SUSA-repot. Det hämtar bara de skolformer som ska genomsökas och använder den medföljande ögonblicksbilden om hämtningen är otillgänglig. Användaren behöver bara installera skillen och ställa sin fråga. Be inte om en GitHub-koppling, manuell hämtning eller en bifogad datafil innan du prövat den vägen.
+Använd `python3 scripts/catalog.py search` från den installerade skillens mapp för frågor om utbildningsutbud och vägledande matchning. Skriptet kontrollerar automatiskt det senaste publicerade datumet i det öppna SUSA-repot. Det hämtar bara de skolformer som ska genomsökas och använder den medföljande ögonblicksbilden om hämtningen är otillgänglig. Användaren behöver bara installera skillen och ställa sin fråga. Be inte om en GitHub-koppling, manuell hämtning eller en bifogad datafil innan du prövat den vägen. Om användaren uttryckligen vill arbeta utan nätåtkomst, lägg till `--bundled` för att använda den medföljande kopian direkt.
 
 ```bash
 python3 scripts/catalog.py search --school-type YH --query "produktionsplanering" --query "projektledning industri"

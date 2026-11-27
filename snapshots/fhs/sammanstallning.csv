@@ -1,0 +1,185 @@
+datum,api_version,provider_id,provider_name,tillfallen,installda,utbildningar,kurser,program,kurspaket,distans,deltid,kvall_helg_blandad,engelska,ej_ord_finansiering,ll_kth
+2026-11-27,3.0.4,p.fbr.288917,Blekinge folkhögskola,3,0,3,3,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.288992,Valjevikens folkhögskola,17,0,17,17,0,0,0,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.289042,Litorina folkhögskola,5,0,5,5,0,0,0,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.289169,Jämshögs folkhögskola,9,0,9,9,0,0,4,4,0,0,0,0
+2026-11-27,3.0.4,p.fbr.294203,Brunnsvik folkhögskola i Gävle,2,0,2,2,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.296024,Vara folkhögskola i Mariestad,2,0,2,2,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.296215,Mariannelunds folkhögskola i Linköping,3,0,3,3,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.297672,Västerås folkhögskola i Köping,4,0,4,4,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.300991,Södra folkhögskolan i Helsingborg,2,0,2,2,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.313053,Vinga folkhögskola,5,0,5,5,0,0,0,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.366437,Skurups och Fridhems folkhögskola i Malmö,1,0,1,1,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.370024,Grimslövs och Ädelfors folkhögskola i Växjö,5,0,5,5,0,0,1,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.389441,Mimi folkhögskola,4,0,4,4,0,0,1,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.420742,Molkoms folkhögskola i Karlstad,3,0,3,3,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.420743,Lunnevads folkhögskola i Mjölby,2,0,2,2,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.422903,Kaggeholms folkhögskola i Uppsala,1,0,1,1,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.426397,Bollnäs folkhögskola i Gävle,3,0,3,3,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.427009,Skarpnäcks folkhögskola i Uppsala,3,0,3,3,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.433304,Region Uppsala folkhögskola i Uppsala,8,0,8,8,0,0,2,4,0,0,0,0
+2026-11-27,3.0.4,p.fbr.433305,Region Uppsala folkhögskola i Tierp,1,0,1,1,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.433306,Region Uppsala folkhögskola i Heby,2,0,2,2,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.439000,Bollnäs folkhögskola i Ockelbo,1,0,1,1,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.452947,Region Uppsala folkhögskola i Wik,9,0,9,9,0,0,3,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.456171,Eslövs folkhögskola i Bjärnum,2,0,2,2,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.457130,Katrinebergs folkhögskola i Halmstad,1,0,1,1,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.460662,Tora Vega och Östra Grevie folkhögskola i Landskrona,5,0,5,5,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.471520,Västerbottens folkhögskola i Lycksele,1,0,1,1,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.471521,Västerbottens folkhögskola i Tärnaby,1,0,1,1,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.471539,Västerbottens folkhögskola i Umeå,1,0,1,1,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.52937,Framnäs folkhögskola,20,0,20,20,0,0,0,8,0,0,0,0
+2026-11-27,3.0.4,p.fbr.53088,Tornedalens folkhögskola,6,0,6,6,0,0,5,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.53112,Sverigefinska folkhögskolan,22,0,22,22,0,0,9,10,0,0,0,0
+2026-11-27,3.0.4,p.fbr.53409,Sunderby folkhögskola,2,0,2,2,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.53584,Älvsby folkhögskola,13,0,13,13,0,0,4,7,0,0,0,0
+2026-11-27,3.0.4,p.fbr.53627,Malmfältens folkhögskola,16,0,16,16,0,0,10,11,0,0,0,0
+2026-11-27,3.0.4,p.fbr.53732,Kalix folkhögskola,13,0,13,13,0,0,10,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.53840,Edelviks folkhögskola,15,0,15,15,0,0,1,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.54009,Umeå folkhögskola,12,0,12,12,0,0,0,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.54078,Västerbottens folkhögskola i Vindeln,6,0,6,6,0,0,1,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.54313,Strömbäcks folkhögskola,9,0,9,9,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.54467,Västerbottens folkhögskola i Storuman,5,0,5,5,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.54642,Solviks folkhögskola,11,0,11,11,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.54738,Medlefors folkhögskola,5,0,5,5,0,0,2,4,0,0,0,0
+2026-11-27,3.0.4,p.fbr.54801,Birka folkhögskola,17,0,17,17,0,0,5,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.54923,Bäckedals folkhögskola,14,0,14,14,0,0,3,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.55117,Åredalens folkhögskola,23,0,23,23,0,0,0,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.55289,Hästsportens folkhögskola i Wången,1,0,1,1,0,0,1,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.55296,Ålsta folkhögskola i Fränsta,8,0,8,8,0,0,2,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.55422,Örnsköldsviks folkhögskola,15,0,15,15,0,0,2,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.55544,Hola folkhögskola,18,0,18,18,0,0,8,6,0,0,0,0
+2026-11-27,3.0.4,p.fbr.55827,Härnösands folkhögskola,6,0,6,6,0,0,4,4,0,0,0,0
+2026-11-27,3.0.4,p.fbr.56021,Mellansels folkhögskola,16,0,16,16,0,0,3,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.56180,Ålsta folkhögskola i Sundsvall,6,0,6,6,0,0,2,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.56271,Fornby folkhögskola,21,0,21,21,0,0,3,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.56429,Brunnsvik folkhögskola,8,0,8,8,0,0,1,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.56511,Västanviks folkhögskola,28,0,28,28,0,0,3,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.56736,Leksands folkhögskola,13,0,13,13,0,0,3,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.56874,Sjöviks folkhögskola,20,0,20,20,0,0,2,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.56983,Mora folkhögskola,16,0,16,16,0,0,5,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.57164,Malungs folkhögskola,32,0,32,32,0,0,6,7,0,0,0,0
+2026-11-27,3.0.4,p.fbr.57286,Fornby folkhögskola i Falun,2,0,2,2,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.57329,Forsa folkhögskola,16,0,16,16,0,0,9,6,0,0,0,0
+2026-11-27,3.0.4,p.fbr.57520,Bollnäs folkhögskola,10,0,10,10,0,0,2,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.57623,Västerbergs folkhögskola,15,0,15,15,0,0,11,8,0,0,0,0
+2026-11-27,3.0.4,p.fbr.57805,Färnebo folkhögskola,3,0,3,3,0,0,3,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.58286,"Geijerskolan, folkhögskolan i Ransäter",34,0,34,34,0,0,3,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.58604,Molkoms folkhögskola,7,0,7,7,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.58852,Kyrkeruds folkhögskola,1,0,1,1,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.59291,Kristinehamns folkhögskola,14,0,14,14,0,0,2,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.59439,Klarälvdalens folkhögskola,16,0,16,16,0,0,5,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.59663,Ingesunds folkhögskola,14,0,14,14,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.59935,Biskops Arnö Nordens folkhögskola,37,0,37,37,0,0,11,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.60534,Alma folkhögskola,3,0,3,3,0,0,0,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.60629,Ågesta folkhögskola,25,0,25,25,0,0,4,4,0,0,0,0
+2026-11-27,3.0.4,p.fbr.60800,Birkagårdens folkhögskola,14,0,14,14,0,0,1,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.60994,Bosön Idrottsfolkhögskola,11,0,11,11,0,0,6,4,0,0,0,0
+2026-11-27,3.0.4,p.fbr.61121,Botkyrka folkhögskola,1,0,1,1,0,0,1,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.61243,Solna folkhögskola,1,0,1,1,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.61469,Väddö folkhögskola,3,0,3,3,0,0,1,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.61532,Vårdinge folkhögskola,21,0,21,21,0,0,3,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.61761,Tollare folkhögskola,8,0,8,8,0,0,5,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.61996,Hagabergs folkhögskola,8,0,8,8,0,0,1,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.62093,Sundbybergs folkhögskola,9,0,9,9,0,0,3,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.66057,Stockholms Stadsmissions folkhögskola,15,0,15,15,0,0,3,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.66146,Skeppsholmens folkhögskola,16,0,16,16,0,0,7,4,0,0,0,0
+2026-11-27,3.0.4,p.fbr.66218,Skarpnäcks folkhögskola,22,0,22,22,0,0,6,6,0,0,0,0
+2026-11-27,3.0.4,p.fbr.66363,Sigtuna folkhögskola,14,0,14,14,0,0,4,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.66578,S:ta Birgittas folkhögskola,4,0,4,4,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.66723,Röda Korsets folkhögskola,13,0,13,13,0,0,5,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.66811,Långholmens folkhögskola,20,0,20,20,0,0,10,8,0,0,0,0
+2026-11-27,3.0.4,p.fbr.66933,Lillsved Gymnastik- och Idrottsfolkhögskola,7,0,7,7,0,0,3,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.67209,Bromma folkhögskola,7,0,7,7,0,0,1,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.67323,Kaggeholms folkhögskola,9,0,9,9,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.67516,Jakobsbergs folkhögskola,20,0,20,20,0,0,7,12,0,0,0,0
+2026-11-27,3.0.4,p.fbr.67726,Scouternas folkhögskola,5,0,5,5,0,0,2,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.67790,Runö folkhögskola i Stockholm,12,0,12,12,0,0,4,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.68183,PRO folkhögskola,27,0,27,27,0,0,5,20,0,0,0,0
+2026-11-27,3.0.4,p.fbr.68288,SIMA folkhögskola i Stockholm,14,0,14,14,0,0,4,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.68321,Fryshuset folkhögskola,10,0,10,10,0,0,3,4,0,0,0,0
+2026-11-27,3.0.4,p.fbr.68354,Sankt Ignatios folkhögskola,27,0,27,27,0,0,16,22,0,0,0,0
+2026-11-27,3.0.4,p.fbr.68372,Paideia folkhögskola,12,0,12,12,0,0,0,6,0,0,0,0
+2026-11-27,3.0.4,p.fbr.68387,Västerås folkhögskola,8,0,8,8,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.68507,Tärna folkhögskola,13,0,13,13,0,0,2,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.68806,Hästsportens folkhögskola,8,0,8,8,0,0,8,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.69025,Fellingsbro folkhögskola,8,0,8,8,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.69065,Örebro folkhögskola,7,0,7,7,0,0,1,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.69109,Kävesta folkhögskola,7,0,7,7,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.69144,Hällefors folkhögskola,8,0,8,8,0,0,3,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.69199,Karlskoga folkhögskola,23,0,23,23,0,0,2,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.69306,Fellingsbro folkhögskola i Örebro,8,0,8,8,0,0,4,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.69339,Eskilstuna folkhögskola,20,0,20,20,0,0,6,7,0,0,0,0
+2026-11-27,3.0.4,p.fbr.69567,Åsa folkhögskola,12,0,12,12,0,0,3,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.69714,Stensunds folkhögskola,27,0,27,27,0,0,4,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.70054,Nyköpings folkhögskola,11,0,11,11,0,0,2,7,0,0,0,0
+2026-11-27,3.0.4,p.fbr.70255,Billströmska folkhögskolan,8,0,8,8,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.70570,Dalslands folkhögskola,8,0,8,8,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.70652,Arbetarrörelsens folkhögskola i Göteborg,4,0,4,4,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.70735,Axevalla folkhögskola,11,0,11,11,0,0,2,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.70885,Angered folkhögskola,8,0,8,8,0,0,3,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.71052,Fristads folkhögskola,14,0,14,14,0,0,5,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.71288,Arbetarrörelsens folkhögskola i Viskadalen,2,0,2,2,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.71344,Grebbestads folkhögskola,10,0,10,10,0,0,1,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.71710,Wendelsbergs folkhögskola,9,0,9,9,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.71834,Vara folkhögskola,5,0,5,5,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.71902,Göteborgs folkhögskola,9,0,9,9,0,0,0,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.72190,Hellidens folkhögskola,19,0,19,19,0,0,2,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.72286,Helsjön folkhögskola,17,0,17,17,0,0,3,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.72381,Hjo folkhögskola,21,0,21,21,0,0,6,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.72647,Hjälmared folkhögskola,8,0,8,8,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.72742,Nordiska folkhögskolan,19,0,19,19,0,0,4,4,0,0,0,0
+2026-11-27,3.0.4,p.fbr.72987,Ljungskile folkhögskola,18,0,18,18,0,0,6,7,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73155,Kvinnofolkhögskolan,22,0,22,22,0,0,11,13,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73227,Dalslands folkhögskola i Trollhättan,9,0,9,9,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73248,Sankta Elisabets folkhögskola,1,0,1,1,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73311,Göteborgs folkhögskola i Biskopsgården,2,0,2,2,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73428,SIMA folkhögskola i Göteborg,12,0,12,12,0,0,2,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73466,Borås folkhögskola,4,0,4,4,0,0,0,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73494,Bona folkhögskola,7,0,7,7,0,0,2,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73549,Valla folkhögskola,12,0,12,12,0,0,2,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73702,Vadstena folkhögskola,22,0,22,22,0,0,6,8,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73783,SIMA folkhögskola i Örebro,12,0,12,12,0,0,2,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73848,Marieborgs folkhögskola,26,0,26,26,0,0,5,4,0,0,0,0
+2026-11-27,3.0.4,p.fbr.73948,Lunnevads folkhögskola,16,0,16,16,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.74058,Liljeholmens folkhögskola,12,0,12,12,0,0,10,8,0,0,0,0
+2026-11-27,3.0.4,p.fbr.74206,Gotlands folkhögskola i Hemse,13,0,13,13,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.74379,Gotlands folkhögskola i Fårösund,2,0,2,2,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.74446,Ölands folkhögskola,37,0,37,37,0,0,3,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.74581,Gamleby folkhögskola,17,0,17,17,0,0,6,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.74742,Vimmerby folkhögskola,11,0,11,11,0,0,1,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.74836,Oskarshamns folkhögskola,18,0,18,18,0,0,5,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.74974,Kalmar folkhögskola,12,0,12,12,0,0,1,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.75196,Braheskolan – Visingsö folkhögskola,41,0,41,41,0,0,1,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.75812,Ädelfors folkhögskola,32,0,32,32,0,0,6,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.76022,Värnamo folkhögskola,12,0,12,12,0,0,0,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.76085,June folkhögskola,14,0,14,14,0,0,2,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.76206,Sörängens folkhögskola,10,0,10,10,0,0,1,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.76401,Södra Vätterbygdens folkhögskola,10,0,10,10,0,0,1,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.76454,Sommenbygdens folkhögskola,7,0,7,7,0,0,4,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.76526,Mullsjö folkhögskola,23,0,23,23,0,0,5,5,0,0,0,0
+2026-11-27,3.0.4,p.fbr.76708,Mariannelunds folkhögskola,17,0,17,17,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.76778,Sörängens och Ädelfors folkhögskola i Jönköping,2,0,2,2,0,0,0,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.76787,Grimslövs folkhögskola,7,0,7,7,0,0,1,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.76908,S:t Sigfrids folkhögskola,3,0,3,3,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.77092,Löftadalens folkhögskola,13,0,13,13,0,0,3,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.77302,Katrinebergs folkhögskola,19,0,19,19,0,0,6,6,0,0,0,0
+2026-11-27,3.0.4,p.fbr.77737,Östra Grevie folkhögskola,17,0,17,17,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.77922,Österlens folkhögskola,19,0,19,19,0,0,9,7,0,0,0,0
+2026-11-27,3.0.4,p.fbr.78034,Eslövs folkhögskola,12,0,12,12,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.78234,Önnestads folkhögskola,12,0,12,12,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.78370,Furuboda folkhögskola,22,0,22,22,0,0,1,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.78498,Fridhems folkhögskola,15,0,15,15,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.78998,Sundsgårdens folkhögskola,28,0,28,28,0,0,6,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.79257,Glimåkra folkhögskola,18,0,18,18,0,0,2,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.79406,Skurups folkhögskola,31,0,31,31,0,0,1,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.79625,Tora Vega folkhögskola,13,0,13,13,0,0,2,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.79671,Hyllie Park folkhögskola,8,0,8,8,0,0,0,1,0,0,0,0
+2026-11-27,3.0.4,p.fbr.79811,S:ta Maria folkhögskola,4,0,4,4,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.79840,Munka folkhögskola,15,0,15,15,0,0,5,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.80038,Malmö folkhögskola,17,0,17,17,0,0,2,3,0,0,0,0
+2026-11-27,3.0.4,p.fbr.80147,Kvarnby folkhögskola,22,0,22,22,0,0,10,12,0,0,0,0
+2026-11-27,3.0.4,p.fbr.80210,Glokala folkhögskolan,9,0,9,9,0,0,1,2,0,0,0,0
+2026-11-27,3.0.4,p.fbr.80334,Östra Grevie folkhögskola i Malmö,4,0,4,4,0,0,0,0,0,0,0,0
+2026-11-27,3.0.4,p.fbr.80418,SIMA folkhögskola i Åkarp,14,0,14,14,0,0,2,4,0,0,0,0
+2026-11-27,3.0.4,p.fbr.80443,Holma folkhögskola,18,0,18,18,0,0,7,12,0,0,0,0
